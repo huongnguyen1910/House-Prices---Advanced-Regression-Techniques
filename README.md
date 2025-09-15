@@ -17,11 +17,11 @@ The goal of this competition is to predict the final sale price of homes in Ames
 On the validation set, the simple ANN with log-transformed target slightly outperformed the Random Forest.
 However, on the public leaderboard the tuned Random Forest Regressor achieved a better score:
 
-ANN (validation): RMSE ≈ 23 138; public LB score ≈ 0.15286
+- ANN (validation): RMSE ≈ 23 138; public LB score ≈ 0.15286
 
-Random Forest (validation): RMSE ≈ 24 924; public LB score ≈ 0.13963
+- Random Forest (validation): RMSE ≈ 24 924; public LB score ≈ 0.13963
 
-Rank (Random Forest submission): 1791 out of 4093 participants at the time of submission
+- Rank (Random Forest submission): 1791 out of 4093 participants at the time of submission
 
 ## Files
 - `HousePrices_ANN_vs_RF.ipynb`: Jupyter notebook containing data exploration, preprocessing, model training, and submission generation.
